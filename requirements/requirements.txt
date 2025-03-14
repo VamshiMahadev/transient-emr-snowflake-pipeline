@@ -1,0 +1,18 @@
+# AWS EMR CLUSTER
+
+# Core Dependencies
+pyspark==3.5.0                      # Spark for data processing
+snowflake-connector-python==3.3.0   # Snowflake Python connector
+snowflake-sqlalchemy==1.4.7         # Snowflake SQLAlchemy for ORM integration
+boto3==1.34.0                       # AWS SDK for EMR, S3, Secrets Manager
+botocore==1.34.0                    # Core AWS library for Boto3
+
+
+# AWS Managed Airflow for Orchestration
+apache-airflow==2.9.1               # DAG creation and task orchestration
+apache-airflow-providers-amazon==8.12.0  # AWS-specific Airflow provider package
+apache-airflow-providers-snowflake==4.8.0 # Snowflake provider for Airflow
+
+# Jars
+spark-snowflake_2.11-2.9.3-spark_2.4.jar
+snowflake-jdbc-3.13.14.jar
